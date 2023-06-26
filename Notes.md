@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/74887620/how-to-use-in-terraform-an-image-from-azure-marketplace
