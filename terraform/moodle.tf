@@ -78,11 +78,6 @@ resource "azurerm_virtual_machine" "moodle-vm" {
   network_interface_ids = azurerm_network_interface.moodle-vm-nic.id
   vm_size               = "Standard_B1s"
 
-  provisioner "setup" {
-    source = "~/moodle-install.sh"
-    destination = "/tmp/moodle-install"
-  }
-
   storage_image_reference {
     publisher = "alertlogic"
     offer     = "alert-logic-tm"
