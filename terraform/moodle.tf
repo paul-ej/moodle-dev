@@ -96,7 +96,8 @@ resource "azurerm_linux_virtual_machine" "moodle-vm" {
   }
 
   admin_username                  = "moodle_admin"
-  disable_password_authentication = true
+  admin_password                  = random_password.password.result
+  disable_password_authentication = false
 
   tags = merge(local.common_tags)
 }
