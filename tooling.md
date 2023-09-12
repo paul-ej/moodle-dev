@@ -9,11 +9,20 @@ Here's a list of the tools that I use, connected to my GitHub, to ensure I'm not
 Link: https://code.visualstudio.com/
 Has everything you want from a code editor. Blazing fast, extensible further than I could feasibly throw a golf ball, and very well supported, with frequent update cycles, powerful customisation and integrations that you'll want to tell your family about over sunday lunch. Throw in intellisense, built-in Git commands, and you've got yourself a real doosy.
 
+
 ## Secret Management
 
 ### 1Password
 Link: https://1password.com/
 I've been a 1Password customer for 11 years, and it's easy to see why. Cross-platform passwords available at your fingertips, ability to store secrets and access them programatically, and a fun presence on the Apple Watch, an absolute belter.
+
+
+## CI/CD
+
+### Azure DevOps
+Link: https://azure.microsoft.com/en-gb/products/devops
+Powerful DevOps services, featuring Repos, cloud-hosted pipelines with simple configuration and editing options, test planning, artifact storage, and a wealth of integrated marketplace apps.
+
 
 ## Security & Infrastructure
 
